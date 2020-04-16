@@ -1,0 +1,907 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+    <meta name='theme-color' content='#333333'>
+    <title>Visite au loin - Atelier de Typographie</title>
+    <meta name="description"
+        content="Semaine du 9 mars 2020: portes ouvertes à préparer, cartels à imprimer, site de l’atelier à terminer, éditions à mettre en scène, derniers kernings à régler font partie des préoccupations liées à cet événement rituel. En fond, une épidémie qui se propage et qu'on suit de plus ou moins loin." />
+    <meta name="og:title" content="Visite au loin - Atelier de Typographie" />
+    <meta name="og:description"
+        content="Semaine du 9 mars 2020: portes ouvertes à préparer, cartels à imprimer, site de l’atelier à terminer, éditions à mettre en scène, derniers kernings à régler font partie des préoccupations liées à cet événement rituel. En fond, une épidémie qui se propage et qu'on suit de plus ou moins loin." />
+    <meta name="og:type" content="website" />
+    <meta name="og:image" content="http://lacambretypo.be/visite-au-loin/assets/img/imprimerie-img-1.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Visite au loin - Atelier de Typographie" />
+    <meta name="twitter:description"
+        content="Semaine du 9 mars 2020: portes ouvertes à préparer, cartels à imprimer, site de l’atelier à terminer, éditions à mettre en scène, derniers kernings à régler font partie des préoccupations liées à cet événement rituel. En fond, une épidémie qui se propage et qu'on suit de plus ou moins loin." />
+    <meta name="twitter:image" content="http://lacambretypo.be/visite-au-loin/assets/img/imprimerie-img-1.jpg" />
+    <!-- <link rel='icon' type='image/png' href='assets/favicon.png'> -->
+    <style>
+        @font-face {
+            font-family: 'aldivia';
+            src: url('assets/fonts/VG_Aldiviva-Estate.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'alpine';
+            src: url('assets/fonts/AlpineMono-Regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'bloom';
+            src: url('assets/fonts/bloom-regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'cento';
+            src: url('assets/fonts/subset-CentoVariable-2Outside.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'chardon';
+            src: url('assets/fonts/Chardon-Regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'claude';
+            src: url('assets/fonts/Claude-Regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'lafragile';
+            src: url('assets/fonts/lafragile-regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'godzilla';
+            src: url('assets/fonts/Godzilla-Regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'neron';
+            src: url('assets/fonts/nerongrotesque-regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'plantasia';
+            src: url('assets/fonts/plantasia1.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'rosalie';
+            src: url('assets/fonts/Rosalie-Regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+        @font-face {
+            font-family: 'rosette';
+            src: url('assets/fonts/Rosette-Regular.woff') format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: fallback;
+        }
+
+
+
+        html {
+            text-size-adjust: 100%;
+            -webkit-tap-highlight-color: transparent;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            font-size: 30px;
+            line-height: 1.15;
+            color: black;
+        }
+
+
+        header,
+        footer {
+            padding: 0.5em 1em 0.5em 1em;
+        }
+
+        footer {
+            margin-bottom: 50%;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .intro {
+            /* max-width: 80%;
+            margin: auto; */
+            padding-top: 1em;
+
+        }
+
+        button,
+        .btn {
+            font: inherit;
+            color: inherit;
+            letter-spacing: inherit;
+            outline: 0;
+            border: 0;
+            cursor: pointer;
+            background-color: lightgrey;
+            border-radius: .5em;
+            padding: .25em;
+            margin: .5em;
+            text-decoration: none;
+        }
+
+        .bottom {
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .nav {
+            display: flex;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            justify-content: space-between;
+            z-index: 10;
+        }
+
+        /* .background {
+            cursor: pointer;
+        }
+
+        #sticker {
+            display: none;
+        }
+
+        #sticker,
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .about {
+            background-color: lightgray;
+            padding: 1em;
+            max-width: 100%;
+            height: 100%;
+            overflow: auto;
+            z-index: 100;
+        } */
+
+        article {
+            padding-bottom: 1.7em;
+        }
+
+        article header {
+            display: flex;
+        }
+
+        article header svg {
+            height: 1em;
+            transform: rotate(180deg);
+        }
+
+        article section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 2em;
+        }
+
+        article section div {
+            flex: 20% 1;
+            margin: 0 .8em 0 .8em;
+        }
+
+        video,
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        img {
+            opacity: 0;
+            transition: all .3s;
+        }
+
+        .visible {
+            opacity: 1;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        em,
+        h3 a {
+            font-style: normal;
+            text-decoration: underline;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: .8em;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        h2 {
+            padding-left: .52em;
+        }
+
+        p {
+            font-size: .5em;
+            line-height: 1.25;
+            margin-block-start: 0;
+        }
+
+        @media (max-width: 800px) {
+            article section div {
+                margin: 0 .5em 0 .5em;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: .6em;
+                padding-left: 1em;
+            }
+
+            header,
+            footer {
+                padding: .5em;
+            }
+
+            article {
+                margin: 0;
+            }
+
+            article section {
+                display: block;
+            }
+
+            article section div {
+                margin: 0;
+            }
+
+            .intro {
+                max-width: 100%;
+
+            }
+        }
+    </style>
+    <script>
+        var fonts = ['aldivia', 'alpine', 'bloom', 'cento', 'chardon', 'claude', 'lafragile', 'godzilla', 'neron', 'plantasia', 'rosalie', 'rosette']
+        var colors = ['#dbded5', '#919294', '#00ff70', '#fa7efc', '#ffff00', '#99a8ff', '#8d97c9', '#007bff', '#00ffaa', '#e7ff00', '#99fff3', '#b05efb']
+        function random() {
+            var x = Math.floor(Math.random() * 12);
+            document.body.style.fontFamily = fonts[x];
+            // document.body.style.backgroundColor = colors[x]
+            // document.getElementById('header').style.backgroundColor = colors[x]
+            document.getElementById('header').style.background = `linear-gradient(${colors[x]}, white)`
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+            let active = false;
+
+            const lazyLoad = function () {
+                if (active === false) {
+                    active = true;
+
+                    setTimeout(function () {
+                        lazyImages.forEach(function (lazyImage) {
+                            if ((lazyImage.getBoundingClientRect().top <= window.innerHeight && lazyImage.getBoundingClientRect().bottom >= 0) && getComputedStyle(lazyImage).display !== "none") {
+                                lazyImage.src = lazyImage.dataset.src;
+                                lazyImage.classList.remove("lazy");
+                                lazyImage.classList.add("visible");
+
+                                lazyImages = lazyImages.filter(function (image) {
+                                    return image !== lazyImage;
+                                });
+
+                                if (lazyImages.length === 0) {
+                                    document.removeEventListener("scroll", lazyLoad);
+                                    window.removeEventListener("resize", lazyLoad);
+                                    window.removeEventListener("orientationchange", lazyLoad);
+                                }
+                            }
+                        });
+
+                        active = false;
+                    }, 200);
+                }
+            };
+
+            document.addEventListener("scroll", lazyLoad);
+            window.addEventListener("resize", lazyLoad);
+            window.addEventListener("orientationchange", lazyLoad);
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var lazyVideos = [].slice.call(document.querySelectorAll("video.lazyy"));
+
+            if ("IntersectionObserver" in window) {
+                var lazyVideoObserver = new IntersectionObserver(function (entries, observer) {
+                    entries.forEach(function (video) {
+                        if (video.isIntersecting) {
+                            for (var source in video.target.children) {
+                                var videoSource = video.target.children[source];
+                                if (typeof videoSource.tagName === "string" && videoSource.tagName === "SOURCE") {
+                                    videoSource.src = videoSource.dataset.src;
+                                }
+                            }
+
+                            video.target.load();
+                            video.target.classList.remove("lazy");
+                            lazyVideoObserver.unobserve(video.target);
+                        }
+                    });
+                });
+
+                lazyVideos.forEach(function (lazyVideo) {
+                    lazyVideoObserver.observe(lazyVideo);
+                });
+            }
+        });
+
+    </script>
+</head>
+
+<body onload="random()">
+    <nav>
+        <div class="nav">
+            <a class="btn" href="en/">En</a>
+            <div>
+                <button onclick="random()" id="font" style="margin-right: 0;">Basculer fonte</button>
+                <a class="btn" href="#footer">?</a>
+            </div>
+        </div>
+    </nav>
+    <header id="header">
+        <div class="header">
+            <h1>Visite au loin – Atelier de Typographie</h1>
+            <h2><a target="_blank" href="http://lacambre.be/" rel="noopener">ENSAV La Cambre,
+                    2020</a></h2>
+        </div>
+        <div class="intro">
+            <h3>
+                Semaine du 9 mars 2020: portes ouvertes à préparer, cartels à imprimer, site de l’atelier à terminer,
+                éditions à mettre en scène, derniers kernings à régler font partie des préoccupations liées à cet
+                événement rituel. En fond, une épidémie qui se propage et qu'on suit de plus ou moins loin. Puis bam!
+                Distanciation sociale, pandémie mondiale, confinement strict, inégalités à vif, sont soudain des sujets
+                de préoccupation bien différents. Mais il y a toujours une envie de partager ce qu'on fait et de
+                projeter avec vous cette empathie spatiale qu'est la typographie.
+                Alors, en partant des travaux confinés avec nous, en partageant nos photos et vidéos, et en explorant de
+                notre serveur commun, nous avons tenté de représenter notre atelier. “Technology today is the campfire
+                around which we tell our stories”, dit Laurie Anderson. L'atelier dessine avec attentions un rapport
+                dégourdi à deux pratiques, le rôle éditorial du typographe et le dessin de caractères. Nous attirons
+                l'attention de ceulles parmi vous qui partagent ces intérêts à nous le manifester sur
+                <a href="mailto:atelier@lacambretypo.be">atelier(at)lacambretypo.be</a>
+                C’est par ce moyen que nous sommes, enseignant·es et étudiant·es disponibles pour répondre à toute
+                question sur le cursus, et sur la vie autour.
+            </h3>
+        </div>
+    </header>
+    <main>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Environnement</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop>
+                        <source src="assets/video/contexte-parc.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Le parc de l'abbaye de La Cambre</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop>
+                        <source src="assets/video/contexte-atelier-1.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>L’atelier</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="visible"
+                        src="assets/img/contexte-installation-jury.jpg" />
+                    <p>L’atelier</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>L’imprimerie</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/imprimerie-2.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Le tire épreuves FAG Control 525</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/imprimerie-img-1.jpg" />
+                    <p>Nuances</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/imprimerie-1.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Expérimentations</p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/imprimerie-composition-2.jpg" />
+                    <p>Composition</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/imprimerie-4.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Composition grand format</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/imprimerie-3.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Expérimentations</p>
+                </div>
+            </section>
+
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Projets éditoriaux, Bachelor</h2>
+            </header>
+            <section>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/editions-bachelor-theo-3.jpg" />
+                    <p><em>Material</em>, Théo Clavel</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/editions-bachelor-pauline-2.jpg" />
+                    <p><em>A Silence’s Encyclopaedia</em>, Pauline Duvivier</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/editions-bachelor-hannah-mathilde.jpg" />
+                    <p><em>Expérimentations et collaborations</em>, Hannah Lamarti et Mathilde Guiot</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Projets éditoriaux, Master</h2>
+            </header>
+            <section>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/editions-hugo-2.jpg" />
+                    <p><em>Page works</em>, Hugo Roger</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/editions-master-unite.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><em>Unité de production</em>, Lucile Billot, Adèle Gallé, Marie-Sophie Robert, Laurine Tribolet
+                    </p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/jury-laetitia-1.jpg" />
+                    <p><em>Divagation</em>, Laetitia Troilo</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Dessin de caractères</h2>
+            </header>
+            <section>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/projet-bachelor-Paloma.jpg" />
+                    <p><em>Typo safari</em>, Paloma Plana</p>
+                </div>
+
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/projet-bachelor-Margaux.jpg" />
+                    <p><em>Typo safari</em>, Margaux Heylen</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/typographie-marie.jpg" />
+                    <p><em>Guy Contour</em>, Marie de villoutreys</p>
+                </div>
+
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Typographie – à voir et à propos</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/specimen-commun.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><em>Lettres sonores</em>, B2 (2019)</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/a-book-about-type-mathilde-guiot-pierre-heusson.jpg" />
+                    <p><em>A Book About Type</em>, Mathilde Guiot et Pierre Heuson</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy" data-src="assets/img/Specimen-b2.jpg" />
+                    <p><em>Lettres sonores</em>, B2 (2020)</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Fontes variables, bachelor</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/variable-pierre-alpine.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><em>Alpine</em>, Pierre Heusson</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/variable-aldiviva-victor.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><em>Aldiviva</em>, Victor Gérard</p>
+                </div>
+
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/variable-pablo.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><em>Ziggy</em>, Pablo Desportes</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Affiches, bachelor 1</h2>
+            </header>
+            <section>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/projet-bachelor-maia.jpg" />
+                    <p><em>Une affiche par semaine</em>, Maïa Loucif</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/affiches-Wali-Chakir.jpg" />
+                    <p><em>Une affiche par semaine</em>, Wali Chakir</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/affiches-Clement-Delepierre.jpg" />
+                    <p><em>Une affiche par semaine</em>, Clement Delepierre</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Sujets, bachelor</h2>
+            </header>
+            <section>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/affiches-pablo-desportes.jpg" />
+                    <p><em>Une personne, des affiches</em>, Pablo Desportes</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/projet-bachelor-clementine.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><em>Officiel</em>, Clémentine Desmenez</p>
+                </div>
+
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/editions-bachelor-eva-2.jpg" />
+                    <p><em>The Smiths</em>, Eva Agguiregomezcorta</p>
+                </div>
+
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Projets personnels, master</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/projet-master-adele.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Adèle Gallé</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/projet-master-mathilde.jpg" />
+                    <p><em>L’Embryon de la civilisation</em>, Mathilde Quentin</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/projet-master-ivone.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><em>Do You See Me?</em>, Ivone Martínez Feria</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Projets en commun, master</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/workshop-genderfluid.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Workshop genderfluid</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/projet-commun-exemplaires.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p><a target="_blank" href="http://lacambretypo.be/exemplaires2019/" rel="noopener">Des trucs en
+                            perspective, des
+                            arbres de haut, des crocodiles, d'une seule ligne</a>, Biennale Exemplaires 2019
+                    </p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/projet-commun-effondrement.jpg" />
+                    <p>Soulever l’effondrement</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Workshops</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/workshop-bennewith-2.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Avec David Bennewith et Dongbin Han</p>
+                </div>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/workshop-bennewith-1.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Avec David Bennewith et Dongbin Han</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/workshop-bodhuin.jpg" />
+                    <p>Avec Benoît Bodhuin</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Excursions</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/voyage-amsterdam-2.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Amsterdam (NL)</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/voyage-eghezee-5.jpg" />
+                    <p>Éghezée (BE)</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/voyage-eghezee-3.jpg" />
+                    <p>Éghezée (BE)</p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <header>
+                <svg width="14" height="15" viewBox="0 0 14 20" fill="none">
+                    <path
+                        d="M7 20L7 -5.24497e-07M7 -5.24497e-07C7 3.63636 3 4.84848 1 5M7 -5.24497e-07C7 3.63636 11 4.84848 13 5"
+                        stroke="black"></path>
+                </svg>
+                <h2>Brochure</h2>
+            </header>
+            <section>
+                <div>
+                    <video autoplay muted playsinline loop class="lazyy">
+                        <source data-src="assets/video/brochure.mp4" type="video/mp4" />
+                        Sorry, your browser doesn't support embedded videos.
+                    </video>
+                    <p>Brochure de l’atelier</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy" data-src="assets/img/brochure-cover.jpg" />
+                    <p>16 pages, format A5, impression argenté</p>
+                </div>
+                <div>
+                    <img alt="atelier de typographie la cambre" class="lazy"
+                        data-src="assets/img/brochure-extrait.jpg" />
+                    <p>Disponible sur commande dès la réouverture de l'école</p>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer id="footer">
+        <h3> (c) fontes: Aldiviva, Victor Gérard / Alpine, Pierre Heusson /
+            Bloom, Eva
+            Aguirregomezcorta
+            / Cento, Anton Kessel / Chardon, Hannah Lamarti / Claude italic, Eva
+            Aguirregomezcorta / Fragile, Pauline Duvivier /
+            Godzilla, Mathilde Guiot / Néron grotesque, Pablo Desportes / Plantasia, Laetitia Troilo / Rosalie, Céline
+            Puls / Rosette,
+            Lola
+            Giffard-Bouvier
+        </h3>
+        <br>
+        <a class="btn bottom" href="#header">Top</a>
+    </footer>
+</body>
+
+</html>
